@@ -1,0 +1,191 @@
+	*{
+		padding:0;
+		margin:0;
+		box-sizing:border-box;
+		
+}
+
+.navbar-brand{
+	font-size: 36px;
+	color:black;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	margin-left: -10px;
+
+}
+
+.navbar-brand:hover{
+	color: black;
+
+}
+
+li{
+	display: inline-block;			<!--hover effect-->
+}
+
+li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.nav-link{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+.nav-link::after{
+	content:'';
+	display: block;
+	width:0px;
+	height:2px;
+	background: black;
+	transition: .3s;
+}
+
+.nav-link:hover::after{
+	width: 100%;
+	transition: width: .3s;
+}
+
+.nav-link:hover{
+	color: black;
+}
+
+.search{
+	height: 40px;
+	width: 90%;
+	border-radius: 60px;
+	outline: none;
+	margin-left: -35px;
+	font-family: 'Quicksand', sans-serif;
+	border: 2px solid rgb(76%, 0%, 27%, 1);
+}
+
+.btn0{
+	height:40px;
+	width: 50%;
+	outline: none;
+	border: none;
+	background: rgb(76%, 0%, 27%, 1);
+	color:white;
+	border-radius: 60px;
+	font-weight: 700;
+}
+
+.main{
+	background:url(./image/1.jpg) no-repeat;
+	background-size:cover;
+	height:880px;
+	width:100%;
+}
+
+.slogan{
+	font-size:4rem;
+	font-weight: 700;
+	margin-left: 75%;
+	margin-top: 20%;
+}
+
+.btn1{
+	height: 15%;
+	width:25%;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: rgb(76%, 0%, 27%);
+	border-radius: 60px;
+	margin-left: 75%;
+	margin-top: 3%;
+}
+
+.btn2{
+	height: 55px;
+	width: 30%;
+	border: none;
+	outline: none;
+	background-color: rgb(76%, 0%, 27%);
+	border-radius: 60px;
+	margin-left: 0%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.product1{
+	font-weight: 700;
+	margin-bottom: 10%;		
+}
+
+.image{
+	margin-top: 15%;
+	height:420px
+}
+.carousel-control-next{
+	color:black;
+}
+
+.image1{
+	height: 380px;
+	padding-left: 145px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.image12{
+	height: 380px;
+	padding-left: 210px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.carousel-control-prev-icon{
+	color: red;
+}
+
+.about1{
+	font-weight:700;
+
+}
+
+.slideall{
+	padding-left:150px;
+	padding-right: 110px;
+}
+
+.imagesize{
+	margin-top: 15%;
+	height:450px;
+	width: px;
+}
+
+.footerinf{
+	margin-bottom: 10%;
+}
+
+
+.footerinf{
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	padding-left: 45px;
+}
+
+.blackfont{
+	color: black;
+}
+
+.newfooter{
+	background-color:black;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size:10px;
+}
+
+.ustal{
+	margin-left:50%;
+}

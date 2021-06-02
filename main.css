@@ -189,3 +189,24 @@ li a{
 .ustal{
 	margin-left:50%;
 }
+
+.btn3{
+	margin-top: 28px;
+	height: 55px;
+	width: 30%;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: rgb(76%, 0%, 27%);
+	border-radius: 60px;
+}
+
+.btn00{
+	height: 55px;
+	width: 30%;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: rgb(76%, 0%, 27%);
+	border-radius: 60px;
+}
